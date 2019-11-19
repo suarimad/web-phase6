@@ -1,0 +1,356 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* --- TOPBAR --- */
+@font-face{
+    font-family: Avenir;
+    src: url(Avenir.otf);
+}
+
+
+body {
+    font-family: Avenir;
+}
+
+/* ---------------- TOPBAR --------------- */
+
+.menu ul li:nth-child(3) {
+    background-color: #eaeaea;
+}
+.container2_pricetidung {
+        float: left;
+        width: 100%;
+        height: 12s00px;
+        margin: 90px auto;
+}
+.home_pricetidung {
+        width: 90%;
+        height: 1200px;
+        margin: 15px auto;
+}
+
+.home_pricetidung h1{
+    font-size: 30px;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.container2 {
+    box-sizing: border-box;
+}
+
+.topbar {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+}
+
+.kiri  {
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+
+.menu {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+.menu ul li{
+    float: left;
+    width: 16%;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    height: 12px;
+    line-height: 18px;
+    margin-top: 30px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    height: 35px;
+    line-height: 40px;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.kanan {
+    float: left;
+    width: 15%;
+    height: 100%;
+    
+}
+
+/* ---------------- TOPBAR --------------- */
+
+/* ---------------- TIDUNG --------------- */
+
+.kaliadem {
+    margin-top: 20px;   
+    float: left;
+    width: 25%;
+    height: 900px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+}
+
+.kaliadem h2 {
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding: 10px;
+    background-color: #c0c0c0;
+}
+
+.kaliadem ul li h3:hover {
+    background-color: #c0c0c0;
+}
+
+.marinaancol {
+    margin-top: 20px;   
+    float: left;
+    width: 25%;
+    height: 900px;
+    box-sizing: border-box;
+}
+.marinaancol h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 5px;
+    background-color: #ffd700;
+    font-weight: bolder;
+}
+
+.marinaancol ul li h3 {
+    font-weight: bolder;
+    font-size: 15px;
+}
+.marinaancol ul li h3:hover {
+    background-color: #ffd700;
+}
+.angke {
+    margin-top: 20px;   
+    float: left;
+    width: 25%;
+    height: 900px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+}
+.angke h2 {
+    font-size: 15px;
+    letter-spacing:2px;
+    text-align: center;
+    padding: 10px;
+    background-color: #cd7f32 ;
+}
+.angke ul li h3:hover {
+    background-color: #cd7f32;
+}
+
+.jalan {
+    margin-top: 20px;   
+    float: left;
+    width: 25%;
+    height: 900px;
+    box-sizing: border-box;
+    border-right: 1px solid black;
+}
+
+.jalan h2 {
+    font-size: 15px;
+    letter-spacing:2px;
+    text-align: center;
+    padding: 10px;
+    background-color: #6d3600 ;
+    color: #ffffff;
+}
+
+.jalan ul li h3:hover {
+    background-color: #6d3600;
+    color: #eaeaea;
+}
+/* ---------------- FOOTER --------------- */
+
+.foota {
+    width: 100%;
+    height: 270px;
+    background-color: rgb(212, 179, 205);
+    margin-top: -200px;
+}
+
+.subfoota {
+    width: 70%;
+    margin: 10px auto;
+    box-sizing: border-box; 
+}
+
+.address {
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    height: 250px;
+    border-right: 1px solid #000;
+}
+
+.maps {
+    padding: 5px;   
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.copyright {
+    margin-top: 170px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.wa a{
+    width: 60px;
+    height: 60px;
+    background-image: url(wa.png);
+    background-size: cover;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+
+}
+
+/* ---------------- FOOTER --------------- */
+
+/* ---------------- RESPONSIVE --------------- */
+
+@media only screen and (max-width:900px) {
+    /* For mobile phones: */
+    .topbar, .logo, .menu{
+      width:100%;
+      height: auto;
+    }
+
+    .container2_pricetidung {
+        float: left;
+        width: 100%;
+        height: 2900px;
+        margin: 90px auto;
+    }
+    .home_pricetidung {
+        width: 80%;
+        height: 2900px;
+        margin: 10px auto;
+        margin-top: 100px;
+    }
+    .home_pricetidung h1 {
+        font-size: 20px;
+        letter-spacing: 2px;
+        border-bottom: 1px dotted black;
+    }
+    
+    .menu ul li {
+        width: 33%;
+    }
+    .marinaancol, .kaliadem, .angke, .jalan {
+        width: 100%;
+        border: 3px solid black;
+        height: auto;
+    }
+    .marinaancol h2, .kaliadem h2, .angke h2, .jalan h2 {
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+    .marinaancol ul li h3, .kaliadem ul li h3, .angke ul li h3, .jalan ul li h3 {
+        font-size: 12px;
+        letter-spacing: 1px;
+        
+    }
+
+    .marinaancol ul li, .kaliadem ul li, .angke ul li, .jalan ul li  {
+        background-color: grey;
+    }
+    .foota {
+        margin-top: 500px;
+        height: 300px;
+    }
+
+    .address {
+        border-right: none;
+    }
+
+    .copyright{
+        margin-top: 160px;
+    }
+}

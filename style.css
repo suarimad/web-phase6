@@ -1,0 +1,678 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* --- TOPBAR --- */
+@font-face{
+    font-family: Avenir;
+    src: url(Avenir.otf);
+}
+
+body {
+    font-family: Avenir;
+}
+
+.container2 {
+    box-sizing: border-box;
+}
+
+.banner_home {
+    width: 100%;
+    height: 420px;  
+    background-image: url(gambar1.jpg);
+    background-size: cover;
+    background-position: 0 -270px;
+}
+
+.cap_banner_home  {
+    position: absolute;
+    top: 150px;
+    color: #fff;
+    font-size: 55px;
+    left: 90px;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.topbar {
+    background-color: #fff;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 999;
+}
+
+.kiri  {
+    float: left;
+    width: 15%;
+    height: 100%;
+}
+
+.logo {
+    float: left;
+    width: 20%;
+    height: 100%;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+
+.menu {
+    float: left;
+    width: 50%;
+    height: 100%;
+}
+
+
+
+.menu ul li{
+    float: left;
+    width: 16%;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    height: 12px;
+    line-height: 18px;
+    margin-top: 30px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+    font-size: 16px;
+    height: 35px;
+    line-height: 40px;
+}
+
+li:hover {
+    background-color: grey;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.kanan {
+    float: left;
+    width: 15%;
+    height: 100%;
+    
+}
+
+/* --- TOPBAR --- */
+
+/* --- HOMEPAGE --- */
+
+.container2_home  {
+    float: left;
+    width: 100%;
+    height: 1000px;
+    margin: 90px auto;
+}
+
+.main {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+
+.home_home {
+    width: 80%;
+    height: 1000px;
+    margin: 10px auto;
+}
+
+.judul h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.blog1 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+}
+
+.foto_blog1 {
+    background-image: url(tidung.jpg);
+    background-size: cover; 
+    background-position: 0 0px;
+    width: 100%;
+    height: 250px;
+}
+
+.title_blog1 {
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.subtitle_blog1 {
+    float: left;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.button a{
+    float: right;
+    font-size: 15px;
+    padding: 5px;
+    background-color:  rgb(212, 179, 205);
+    color: #fff;
+    margin-top: -8px;
+    text-decoration: none;
+}
+
+.button a:hover {
+    background-color: grey;
+    color: #ffffff;
+}
+
+hr {
+    margin-top: 2px;    
+}
+
+.blog2 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+}
+
+.foto_blog2 {
+    background-image: url(pari.jpg);
+    background-size: cover; 
+    background-position: 0 -100px;
+    width: 100%;
+    height: 250px;
+}
+
+.title_blog2 {
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.subtitle_blog2 {
+    float: left;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.blog3 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+}
+
+.foto_blog3 {
+    background-image: url(harapan.jpg);
+    background-size: cover; 
+    background-position: 0 -40px;
+    width: 100%;
+    height: 250px;
+}
+
+.title_blog3 {
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.subtitle_blog3 {
+    float: left;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+.blog4 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+}
+
+.foto_blog4 {
+    background-image: url(pramuka.jpg);
+    background-size: cover; 
+    background-position: 0 0px;
+    width: 100%;
+    height: 250px;
+}
+
+.title_blog4 {
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.subtitle_blog4 {
+    float: left;
+    font-size: 15px;
+    margin-top: -5px;
+}
+
+
+/* --- HOMEPAGE --- */
+
+/* --- FACILITY --- */
+.container2_facility  {
+    float: left;
+    width: 100%;
+    height: 1500px;
+    margin: 90px auto;
+}
+
+.home_facility {
+    width: 80%;
+    height: 1500px;
+    margin: 10px auto;
+}
+.banner_facility {
+    width: 100%;
+    height: 420px;  
+    background-image: url(gambar2.jpg);
+    background-size: cover;
+    background-position: 0 -270px;
+}
+
+.cap_banner_facility  {
+    position: absolute;
+    top: 150px;
+    color: #fff;
+    font-size: 55px;
+    left: 90px;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.home_facility ul li {
+    font-size: 25px;
+}
+
+.underwater1 {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-image: url(underwater.jpg);
+    background-size: cover;
+}
+.underwater2 {
+    float: left;
+    width: 50%;
+    height: 200px;
+    background-image: url(underwater1.jpg);
+    background-size: cover;
+}
+
+.pulau1 {
+    float: left;
+    width: 33.3%;
+    height: 200px;
+    background-image: url(pulau1.jpg);
+    background-size: cover;
+}
+.pulau2 {
+    float: left;
+    width: 33.3%;
+    height: 200px;
+    background-image: url(pulau2.jpg);
+    background-size: cover;
+}
+.pulau3 {
+    float: left;
+    width: 33.4%;
+    height: 200px;
+    background-image: url(pulau3.jpg);
+    background-size: cover;
+}
+
+.underwater1, .underwater2, .pulau1, .pulau2, .pulau3 {
+    box-sizing: border-box;
+    border: 1px solid white;    
+}
+/* --- FACILITY --- */
+
+/* --- PRICE --- */
+
+.container2_price  {
+    float: left;
+    width: 100%;
+    height: 00px;
+    margin: 90px auto;
+}
+
+.banner_price {
+    width: 100%;
+    height: 420px;  
+    background-image: url(gambar3.jpg);
+    background-size: cover;
+    background-position: 0 -270px;
+}
+
+.cap_banner_price  {
+    position: absolute;
+    top: 380px;
+    color: #fff;
+    font-size: 55px;
+    left: 90px;
+    border-top: 5px solid #fff;
+    border-bottom: 5px solid #fff;
+}
+
+.home_price {
+    width: 80%;
+    height: 900px;
+    margin: 10px auto;
+}
+
+.home_price h1{
+    font-size: 40px;
+}
+
+.price1 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+}
+
+.foto_price1 {
+    background-image: url(hargatidung.jpg);
+    background-size: cover; 
+    background-position: 0 0;
+    width: 100%;
+    height: 250px;
+}
+
+.title_price1 {
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+.price2 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+}
+
+.foto_price2 {
+    background-image: url(hargapramuka.jpg);
+    background-size: cover; 
+    background-position: 0 0;
+    width: 100%;
+    height: 250px;
+}
+
+.title_price2 {
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+.price3 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+}
+
+.foto_price3 {
+    background-image: url(hargaharapan.jpg);
+    background-size: cover; 
+    background-position: 0 0;
+    width: 100%;
+    height: 250px;
+}
+
+.title_price3 {
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+
+.price4 {
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 50%;
+}
+
+.foto_price4 {
+    background-image: url(hargapari.jpg);
+    background-size: cover; 
+    background-position: 0 0;
+    width: 100%;
+    height: 250px;
+}
+
+.title_price4 {
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+/* --- PRICE --- */
+
+
+/* --- FOOTER --- */
+
+.foota {
+    width: 100%;
+    height: 270px;
+    background-color: rgb(212, 179, 205);
+    margin-top: -200px;
+}
+
+.subfoota {
+    width: 70%;
+    margin: 10px auto;
+    box-sizing: border-box; 
+}
+
+.address {
+    width: 50%;
+    float: left;
+    font-size: 18px;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    height: 250px;
+    border-right: 1px solid #000;
+}
+
+.maps {
+    padding: 5px;   
+    margin-top: 10px;
+    border: 1px solid black;
+    width: 300px;
+}
+
+.copyright {
+    margin-top: 170px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.wa a{
+    width: 60px;
+    height: 60px;
+    background-image: url(wa.png);
+    background-size: cover;
+    position: fixed;
+    bottom: 12px;
+    right: 12px;
+
+}
+
+/* --- FOOTER --- */
+
+
+/* --- RESPONSIVE --- */
+
+
+@media only screen and (max-width:900px) {
+    /* For mobile phones: */
+    .topbar, .logo, .menu{
+      width:100%;
+      height: auto;
+    }
+
+    
+    .menu ul li {
+        width: 33%;
+    }
+
+    .banner_home, .banner_facility, .banner_price {
+        height: 225px;
+        background-size: cover; 
+        background-position: 0 -50px;
+    }
+
+    .cap_banner_home{
+        font-size: 20px;
+        top: 270px;
+        left: 50px;
+        border: none;
+    }
+    .cap_banner_facility {
+        font-size: 20px;
+        top: 280px;
+        left: 50px;
+        border: none;
+    }
+    .cap_banner_price {
+        font-size: 20px;
+        top: 280px;
+        left: 50px;
+        border: none;
+    }
+
+
+    .judul h1{
+        font-size: 20px;
+        margin-top: 5px;
+        font-weight: bolder;
+    }
+    
+    .foto_blog1, .foto_blog2, .foto_blog3, .foto_blog4 {
+        background-position: 0 0px;
+    }
+
+    .home_home {
+        width: 90%;
+        height: 1100px;
+    }
+
+    .home_price {
+        width: 90%;
+        height: 1300px;
+    }
+
+    .home_facility {
+        height: 1600px;
+    }
+    .blog1, .blog2, .blog3, .blog4 {
+        width: 100%;
+    }
+    
+    .button a {
+        margin-top: 5px;
+    }
+
+    .underwater1, .underwater2, .pulau1, .pulau2, .pulau3 {
+        width: 100%;
+        box-sizing: border-box;
+        border: 1px solid white;    
+    }
+    .pulau1 {
+        margin-top: 150px;
+    }
+    #warning {
+        background-color: none;
+    }
+    .container2_price, .home_price{
+        height: 850px;
+    } 
+    .price1, .price2, .price3, .price4 {
+        width: 100%;
+    }
+
+    .foto_price1, .foto_price2, .foto_price3, .foto_price4 {
+        width: 100%;
+        background-position: -43px 10px;
+    }
+    .foota {
+        margin-top: 500px;
+        height: 300px;
+    }
+
+    .address {
+        border-right: none;
+    }
+
+    .copyright{
+        margin-top: 160px;
+    }
+    
+  }
+
+  /* --- RESPONSIVE --- */
